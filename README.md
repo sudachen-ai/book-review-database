@@ -16,20 +16,6 @@ The goal of this project was to practice relational database design, SQL operati
 - Triggers
 - Git / GitHub
 
-## How to Run
-
-1. Install dependencies:
-   ```bash
-   pip install pymysql
-   
-2. Create the MySQL database:
-   ```bash
-   mysql -u root -p < database_setup.sql
-
-3.Run the Python application:
-   ```bash
-   python book_app.py
-
 ## Features
 
 - List all books
@@ -106,3 +92,17 @@ Through this project, I practiced:
 - Building command-line application workflows
 - Thinking about data validation and application reliability# book-review-database
 Python and MySQL command-line application for managing books, authors, genres, reading status, and reviews.
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install pymysql
+   
+2. Create the MySQL database:
+   ```bash
+   mysql -u root -p < database_setup.sql
+
+3.Run the Python application:
+   ```bash
+   python book_app.py
