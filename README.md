@@ -21,18 +21,16 @@ The goal of this project was to practice relational database design, SQL operati
 
 Step 1: Install dependencies.
 
-```bash
-pip install pymysql
+Command: `pip install pymysql`
 
 Step 2: Create the MySQL database.
 
-```bash
-mysql -u root -p < database_setup.sql
+Command: `mysql -u root -p < database_setup.sql`
 
 Step 3: Run the Python application.
 
-```bash
-python book_app.py
+Command: `python book_app.py`
+
 
 ## Features
 
